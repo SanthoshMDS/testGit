@@ -22,6 +22,11 @@
 		F420357C197D117700068DBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F420355B197D117600068DBC /* UIKit.framework */; };
 		F4203584197D117700068DBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4203582197D117700068DBC /* InfoPlist.strings */; };
 		F4203586197D117700068DBC /* testGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4203585197D117700068DBC /* testGitTests.m */; };
+		F4203592197D39EE00068DBC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4203590197D39EE00068DBC /* MainViewController.m */; };
+		F4203593197D39EE00068DBC /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4203591197D39EE00068DBC /* MainViewController.xib */; };
+		F484909C197E7A7200AE3118 /* collectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F484909A197E7A7200AE3118 /* collectionViewController.m */; };
+		F484909D197E7A7200AE3118 /* collectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F484909B197E7A7200AE3118 /* collectionViewController.xib */; };
+		F484909F197E7D7A00AE3118 /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F484909E197E7D7A00AE3118 /* Unknown.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,13 @@
 		F4203581197D117700068DBC /* testGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testGitTests-Info.plist"; sourceTree = "<group>"; };
 		F4203583197D117700068DBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4203585197D117700068DBC /* testGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGitTests.m; sourceTree = "<group>"; };
+		F420358F197D39EE00068DBC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F4203590197D39EE00068DBC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F4203591197D39EE00068DBC /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F4849099197E7A7200AE3118 /* collectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionViewController.h; sourceTree = "<group>"; };
+		F484909A197E7A7200AE3118 /* collectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionViewController.m; sourceTree = "<group>"; };
+		F484909B197E7A7200AE3118 /* collectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = collectionViewController.xib; sourceTree = "<group>"; };
+		F484909E197E7D7A00AE3118 /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,12 @@
 				F4203570197D117700068DBC /* ViewController.m */,
 				F4203572197D117700068DBC /* Images.xcassets */,
 				F420355E197D117700068DBC /* Supporting Files */,
+				F420358F197D39EE00068DBC /* MainViewController.h */,
+				F4203590197D39EE00068DBC /* MainViewController.m */,
+				F4203591197D39EE00068DBC /* MainViewController.xib */,
+				F4849099197E7A7200AE3118 /* collectionViewController.h */,
+				F484909A197E7A7200AE3118 /* collectionViewController.m */,
+				F484909B197E7A7200AE3118 /* collectionViewController.xib */,
 			);
 			path = testGit;
 			sourceTree = "<group>";
@@ -130,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				F420355F197D117700068DBC /* testGit-Info.plist */,
+				F484909E197E7D7A00AE3118 /* Unknown.jpeg */,
 				F4203560197D117700068DBC /* InfoPlist.strings */,
 				F4203563197D117700068DBC /* main.m */,
 				F4203565197D117700068DBC /* testGit-Prefix.pch */,
@@ -233,7 +252,10 @@
 			files = (
 				F420356E197D117700068DBC /* Main_iPad.storyboard in Resources */,
 				F4203573197D117700068DBC /* Images.xcassets in Resources */,
+				F4203593197D39EE00068DBC /* MainViewController.xib in Resources */,
 				F420356B197D117700068DBC /* Main_iPhone.storyboard in Resources */,
+				F484909D197E7A7200AE3118 /* collectionViewController.xib in Resources */,
+				F484909F197E7D7A00AE3118 /* Unknown.jpeg in Resources */,
 				F4203562197D117700068DBC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +278,8 @@
 				F4203571197D117700068DBC /* ViewController.m in Sources */,
 				F4203568197D117700068DBC /* AppDelegate.m in Sources */,
 				F4203564197D117700068DBC /* main.m in Sources */,
+				F4203592197D39EE00068DBC /* MainViewController.m in Sources */,
+				F484909C197E7A7200AE3118 /* collectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +494,7 @@
 				F420358B197D117700068DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F420358C197D117700068DBC /* Build configuration list for PBXNativeTarget "testGitTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +503,7 @@
 				F420358E197D117700068DBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
