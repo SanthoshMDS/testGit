@@ -32,6 +32,7 @@
 {
     [super viewDidLoad];
     NSLog(@"hello from arun");
+    NSLog(@"succes");
 //    [nextview.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"Cell"];
 //    UICollectionViewFlowLayout *aFlowLayout = [[UICollectionViewFlowLayout alloc] init];
 //    [aFlowLayout setItemSize:CGSizeMake(60, 60)];
