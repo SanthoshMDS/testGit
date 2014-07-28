@@ -20,6 +20,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     NSLog(@"hi Testing");
     NSLog(@"testbranchSanthosh");
+    NSLog(@"MERGE TEST ARUN");
 }
 
 - (void)didReceiveMemoryWarning
