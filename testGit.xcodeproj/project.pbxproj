@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BAF792A199F74DB00171324 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BAF7929199F74DB00171324 /* image2.png */; };
 		F4203558197D117600068DBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4203557197D117600068DBC /* Foundation.framework */; };
 		F420355A197D117600068DBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4203559197D117600068DBC /* CoreGraphics.framework */; };
 		F420355C197D117600068DBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F420355B197D117600068DBC /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BAF7929199F74DB00171324 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
 		F4203554197D117600068DBC /* testGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4203557197D117600068DBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F4203559197D117600068DBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +98,7 @@
 		F420354B197D117600068DBC = {
 			isa = PBXGroup;
 			children = (
+				4BAF7929199F74DB00171324 /* image2.png */,
 				F420355D197D117600068DBC /* testGit */,
 				F420357F197D117700068DBC /* testGitTests */,
 				F4203556197D117600068DBC /* Frameworks */,
@@ -252,6 +255,7 @@
 			files = (
 				F420356E197D117700068DBC /* Main_iPad.storyboard in Resources */,
 				F4203573197D117700068DBC /* Images.xcassets in Resources */,
+				4BAF792A199F74DB00171324 /* image2.png in Resources */,
 				F4203593197D39EE00068DBC /* MainViewController.xib in Resources */,
 				F420356B197D117700068DBC /* Main_iPhone.storyboard in Resources */,
 				F484909D197E7A7200AE3118 /* collectionViewController.xib in Resources */,
