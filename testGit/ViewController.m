@@ -24,6 +24,7 @@
     NSLog(@"testbranchSanthosh2");
     NSLog(@"checking 4");
     NSLog(@"MANJU 5");
+    NSLog(@"MANJU 6");
 }
 
 - (void)didReceiveMemoryWarning
