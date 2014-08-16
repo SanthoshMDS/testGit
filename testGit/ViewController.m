@@ -22,6 +22,7 @@
     NSLog(@"testbranchSanthosh");
     NSLog(@"MERGE TEST ARUN");
     NSLog(@"testbranchSanthosh2");
+    NSLog(@"checking 4");
 }
 
 - (void)didReceiveMemoryWarning
